@@ -1,4 +1,3 @@
-import React from 'react'
 
 const friends = [
     {
@@ -57,3 +56,5 @@ const friends = [
         ]
     }
 ]
+
+export default friends
