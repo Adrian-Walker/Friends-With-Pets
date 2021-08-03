@@ -8,6 +8,7 @@ import Friend from "./Friend"
 function App() {
   const myFriends = FriendList.map(friend => <Friend name={friend.name} age={friend.age} pets={friend.pets} />)
 
+
   return (
     <div>
       {myFriends}
